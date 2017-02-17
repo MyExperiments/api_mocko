@@ -1,6 +1,6 @@
 System.config({
   map: {
-    'app': 'frontend/javascripts',
+    'app': 'app/',
   },
   packages: {
     'app': {

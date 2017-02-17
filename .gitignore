@@ -20,4 +20,5 @@
 # Ignore Byebug command history file.
 .byebug_history
 # Added by npm-rails
-frontend_app/node_modules
+node_modules
+typings
