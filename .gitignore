@@ -16,9 +16,9 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-
+.env.local
 # Ignore Byebug command history file.
 .byebug_history
 # Added by npm-rails
-node_modules
-typings
+frontend/node_modules
+

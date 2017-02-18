@@ -1,25 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+APIMOCKO
 
-Things you may want to cover:
+# Rails App
 
-* Ruby version
+* Ruby Version - 2.3.1
+* Rails Version - 5.0.1
 
-* System dependencies
-  npm
-  Typescript - npm install -g typescript
-* Configuration
+# Angular App
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Version - Angular 2
+* Dependencies
+   * Node and Npm - Installation using NVM recommended
+   * Node 6.x.x + and Npm 3.x.x +
+   * webpack (npm install --global webpack)
+   * typescript (npm install --global typescript)
