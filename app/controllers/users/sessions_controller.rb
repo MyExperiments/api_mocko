@@ -5,7 +5,7 @@ module Users
   # @author sufinsha
   class SessionsController < Devise::SessionsController
     respond_to :json
-    protect_from_forgery with: :null_session
+    protect_from_forgery with: :null_session, if: ->{request.format.json?}
     # before_action :configure_sign_in_params, only: [:create]
 
     # GET /resource/sign_in
