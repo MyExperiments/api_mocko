@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   namespace :frontend do
     namespace :api do
+      resources :apps, only: [:index]
     end
   end
 
