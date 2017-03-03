@@ -16,10 +16,8 @@ module Frontend
       # POST /frontend/api/apps.json
       def create
         app = current_user.apps.new(permitted_params)
-        if app.save
-          @succes = true
-        else
-          @succes = false
+        unless app.save
+          set_success_value(false)
           @message = app.errors.full_messages
         end
       end
