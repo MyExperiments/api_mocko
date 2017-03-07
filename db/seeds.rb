@@ -3,7 +3,10 @@ user = User.where(
   name: 'sufinsha'
 ).first_or_create(password: 'apimocko@123')
 
-
-[{title: 'App1'}, {title: 'App2'}, {title: 'App3'}].each do |app|
-  user.apps.where(app).first_or_create
+[{
+  title: 'Api 1',
+  api_response: { success: true }.to_json,
+  app: "App 1"
+}].each do |mock_api|
+  user.mock_apis.where(mock_api).first_or_create
 end
