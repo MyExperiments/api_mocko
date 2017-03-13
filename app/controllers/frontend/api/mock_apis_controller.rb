@@ -22,7 +22,7 @@ module Frontend
       private
 
       def permitted_params
-        params.require(:mock_api).permit(:id, :title, :api_response, :app)
+        params.require(:mock_api).permit(:id, :title, :api_response, :app, :end_point)
       end
     end
   end

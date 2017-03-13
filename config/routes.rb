@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   end
 
   root 'home#index'
+
+  match 'mock_apis/:path', to: 'mock_apis#show', via: :all
 end

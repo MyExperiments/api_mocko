@@ -1,3 +1,7 @@
+#
+# Migration for creating table mock_apis
+#
+# @author sufinsha
 class CreateMockApis < ActiveRecord::Migration[5.0]
   def change
     create_table :mock_apis do |t|
